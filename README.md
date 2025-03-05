@@ -13,11 +13,13 @@ A command-line tool that uses AI to generate meaningful git commit messages.
 ## Prerequisites
 
 1. Install [Ollama](https://ollama.ai):
+
    ```bash
    brew install ollama
    ```
 
 2. Pull required models:
+
    ```bash
    ollama pull qwen2.5-coder  # for code analysis
    ollama pull llama3.2       # for commit message generation
@@ -26,7 +28,7 @@ A command-line tool that uses AI to generate meaningful git commit messages.
 ## Installation
 
 ```bash
-pip install ai-gcm
+pipx install ai-gcm
 ```
 
 ## Usage
@@ -63,10 +65,13 @@ ai-gcm version
 
 1. Clone the repository
 2. Install dependencies:
+
    ```bash
    poetry install
    ```
+
 3. Activate the virtual environment:
+
    ```bash
    poetry shell
    ```
