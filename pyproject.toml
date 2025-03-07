@@ -5,8 +5,8 @@ description = "AI powered Git Commit Message Generator"
 authors = ["Rahul Katariya <rahulkatariya@me.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/rahul0x24/ai-gcm"
-repository = "https://github.com/rahul0x24/ai-gcm"
+homepage = "https://github.com/zuhlke/ai-gcm"
+repository = "https://github.com/zuhlke/ai-gcm"
 keywords = ["git", "commit", "ai", "ollama"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
