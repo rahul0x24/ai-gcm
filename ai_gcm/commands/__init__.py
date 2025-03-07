@@ -1,6 +1,6 @@
 """Commands for the AI Commit CLI."""
 
 from .version import version
-from .commit import commit
+from .generate import generate
 
-__all__ = ['version', 'commit'] 
+__all__ = ['version', 'generate'] 

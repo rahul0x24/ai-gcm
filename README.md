@@ -40,13 +40,13 @@ pipx install ai-gcm
 git add .
 
 # Generate commit message with default models
-ai-gcm commit
+ai-gcm generate
 
 # Show detailed output including code changes summary
-ai-gcm commit --verbose
+ai-gcm generate --verbose
 
 # Use custom models
-ai-gcm commit --summary-model qwen2.5-coder --commit-model llama3.2
+ai-gcm generate --summary-model qwen2.5-coder --commit-model llama3.2
 ```
 
 ### Options

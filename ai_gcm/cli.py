@@ -3,7 +3,7 @@
 
 import click
 
-from ai_gcm.commands import version, commit
+from ai_gcm.commands import version, generate
 
 @click.group()
 def cli():
@@ -12,7 +12,7 @@ def cli():
 
 # Register commands
 cli.add_command(version)
-cli.add_command(commit)
+cli.add_command(generate)
 
 if __name__ == '__main__':
     cli() 
